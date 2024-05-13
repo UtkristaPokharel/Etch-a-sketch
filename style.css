@@ -53,8 +53,6 @@ h1 {
 
 #container {
 	display: grid;
-	width: 500px;
-	height: 500px;
 	margin: auto;
 	background-color: white;
 }
