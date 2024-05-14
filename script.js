@@ -59,3 +59,7 @@ gridReset.addEventListener("click", resetGrid);// Button when clicked resets the
 gridClear.addEventListener("click", clearGrid);// Button when clicked clears the grid
 createGrid(total);
 
+// Footer
+const footer = document.querySelector("footer");
+const currentYear = new Date().getFullYear();
+document.getElementById("currentYear").textContent = currentYear;
